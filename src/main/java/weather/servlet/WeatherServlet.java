@@ -37,7 +37,7 @@ public class WeatherServlet extends HttpServlet {
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		String apiKey = "17f760060e10f9ba11095fd5e94b29fe";
+		String apiKey = "api-key";
 	
         String city = request.getParameter("city"); 
         if (city == null || city.trim().isEmpty()) {
